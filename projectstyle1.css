@@ -1,0 +1,100 @@
+body{
+   background: linear-gradient(
+    to bottom,
+    #FFFAF0 105px,
+    red 105px,red 145px,#FFFAF0 145px,#FFFAF0 500px
+   );
+}
+h2{
+    color:blueviolet;
+    font-size: 1.5cm;
+}
+h1{
+    color:brown;
+    text-align: center;
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+h3{
+    color:blue;
+    font-size: 1cm;
+}
+h4{
+    color:plum;
+    font-size: 0.77cm;
+}
+button{
+    background-color: orange;
+}
+button:hover{
+    color:blue;
+    border:10px;
+    font-size: large;
+}
+img{
+    border: 2px solid black;
+    float: right;
+}
+div{
+    float: right;
+    display: inline;
+    border: 0ch;
+}
+p{
+    font-size: 0.6cm;
+}
+.sidebar{
+    position: fixed;
+    float: left;
+    left: -220px;
+    width: 220px;
+    background-color: #042331;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    background-color: #063146;
+    user user-select: none;
+    line-height: 70px;
+}
+.sidebar ul a{
+    
+float: left;
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    transition: .5s;
+}
+.dhruv{
+    padding-left: 50px;
+}
+#check{
+    display: none;
+}
+label #bansal{
+  left: 40px;
+  top: 25px;
+  font-size: 25px;
+  color: white;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+@keyframes red-to-black{
+    0%{
+        background: red;
+        transform: translate(0px,0px);
+    }
+    50%{
+        background: yellow;
+        transform: translate(10px,10px);
+    }
+    100%{
+        background: black;
+        transform: translate(20px,20px);
+    }
+}

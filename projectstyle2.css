@@ -1,0 +1,14 @@
+button{
+    background-color: orange;
+}
+button:hover{
+    color:blue;
+    border:10px;
+    font-size: large;
+}
+body{
+    background-color: #FDF5E6;
+}
+form input{
+    background-color: beige;
+}
